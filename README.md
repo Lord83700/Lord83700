@@ -1,11 +1,11 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img alt="lord.sh_ — cybersécurité @ Thales, sécurité système, kernel Windows, reverse engineering" src="assets/banner-light.svg" width="100%">
+    <img alt="lord.sh_ — cybersécurité, sécurité système, kernel Windows, reverse engineering" src="assets/banner-light.svg" width="100%">
   </picture>
 </p>
 
-Je travaille en **cybersécurité chez Thales**. En parallèle, je creuse le **bas niveau** : mémoire, pagination x64, drivers kernel Windows, structures internes des moteurs de jeu. Comprendre un système de l'intérieur, c'est savoir où il peut céder et comment le protéger.
+En parallèle, je creuse le **bas niveau** : mémoire, pagination x64, drivers kernel Windows, structures internes des moteurs de jeu. Comprendre un système de l'intérieur, c'est savoir où il peut céder et comment le protéger.
 
 J'apprends en construisant. Chaque projet part d'une question précise, comme « comment le CPU traduit-il une adresse virtuelle ? » ou « comment détecter un débordement de tas ? », et va jusqu'au code qui y répond.
 
@@ -15,7 +15,7 @@ Background réseaux & télécoms (BUT R&T). Côté plus haut niveau : Python pou
 
 **Chez Thales**, je sécurise des stacks systèmes et je mets en place des solutions de sécurité. Ces missions ne sont pas publiques : elles n'apparaissent donc pas sur ce GitHub.
 
-**Dans mes projets perso**, je travaille les mêmes sujets côté technique :
+**Dans mes projets perso**, je travaille d'autres sujets côté technique :
 
 - **Protéger la mémoire** : détection des débordements de tas par canaries, métadonnées isolées des données ([secmalloc](https://github.com/Lord83700/secmalloc))
 - **Sécuriser un canal** : échanges user ↔ kernel chiffrés pour résister à un dump mémoire ([driver-extended](https://github.com/Lord83700/driver-extended-public))
