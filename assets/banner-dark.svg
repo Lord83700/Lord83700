@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-labelledby="t">
-  <title id="t">lord.sh_ — cybersécurité @ Thales · sécurité système · kernel Windows · reverse engineering</title>
+  <title id="t">lord.sh_ — cybersécurité · sécurité système · kernel Windows · reverse engineering</title>
   <style>
     :root {
       --panel: #161b22;
@@ -33,7 +33,7 @@
     <text x="44" y="104" class="l" style="animation-delay:.1s"><tspan class="accent">$</tspan><tspan class="fg"> whoami</tspan></text>
     <text x="44" y="170" font-size="56" font-weight="700" class="l fg" style="animation-delay:.45s">lord.sh<tspan class="accent">_</tspan></text>
     <text x="44" y="226" class="l" style="animation-delay:.9s"><tspan class="accent">$</tspan><tspan class="fg"> cat focus.txt</tspan></text>
-    <text x="44" y="262" class="l fg" style="animation-delay:1.25s">cybersécurité <tspan class="muted">@ Thales</tspan></text>
+    <text x="44" y="262" class="l fg" style="animation-delay:1.25s">cybersécurité</text>
     <text x="44" y="292" class="l muted" style="animation-delay:1.5s">sécurité système · kernel Windows · reverse engineering</text>
     <text x="44" y="336" class="l accent" style="animation-delay:1.85s">$</text>
     <rect x="70" y="319" width="11" height="21" class="fg cur"/>
