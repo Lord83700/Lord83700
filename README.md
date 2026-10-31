@@ -1,15 +1,25 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img alt="lord.sh_ — Windows internals, kernel, reverse engineering" src="assets/banner-light.svg" width="100%">
+    <img alt="lord.sh_ — cybersécurité @ Thales, sécurité système, kernel Windows, reverse engineering" src="assets/banner-light.svg" width="100%">
   </picture>
 </p>
 
-Développeur orienté **bas niveau** : je m'intéresse à ce qui se passe sous l'OS, de la mémoire et la pagination x64 aux drivers kernel Windows, en passant par les structures internes des moteurs de jeu.
+Je travaille en **cybersécurité chez Thales**. En parallèle, je creuse le **bas niveau** : mémoire, pagination x64, drivers kernel Windows, structures internes des moteurs de jeu. Comprendre un système de l'intérieur, c'est savoir où il peut céder et comment le protéger.
 
 J'apprends en construisant. Chaque projet part d'une question précise, comme « comment le CPU traduit-il une adresse virtuelle ? » ou « comment détecter un débordement de tas ? », et va jusqu'au code qui y répond.
 
 Background réseaux & télécoms (BUT R&T). Côté plus haut niveau : Python pour les bots et l'automatisation, TypeScript pour le reste.
+
+## Cybersécurité
+
+**Chez Thales**, je sécurise des stacks systèmes et je mets en place des solutions de sécurité. Ces missions ne sont pas publiques : elles n'apparaissent donc pas sur ce GitHub.
+
+**Dans mes projets perso**, je travaille les mêmes sujets côté technique :
+
+- **Protéger la mémoire** : détection des débordements de tas par canaries, métadonnées isolées des données ([secmalloc](https://github.com/Lord83700/secmalloc))
+- **Sécuriser un canal** : échanges user ↔ kernel chiffrés pour résister à un dump mémoire ([driver-extended](https://github.com/Lord83700/driver-extended-public))
+- **Comprendre l'attaque pour mieux défendre** : lecture de la mémoire d'un processus depuis l'extérieur et reverse engineering d'Unreal Engine ([dbd-external-esp-base](https://github.com/Lord83700/dbd-external-esp-base))
 
 ## Projets
 
@@ -56,4 +66,4 @@ Projet d'apprentissage des structures internes d'Unreal Engine, sur Dead by Dayl
 
 <img src="https://skillicons.dev/icons?i=c,cpp,py,ts,php,mongodb,docker,git,linux,windows,visualstudio,vscode&perline=12" alt="C, C++, Python, TypeScript, PHP, MongoDB, Docker, Git, Linux, Windows, Visual Studio, VS Code">
 
-**Domaines** : Windows internals · WDK / KMDF · pagination x64 · reverse engineering · Unreal Engine · DirectX 11 · ImGui
+**Domaines** : cybersécurité · sécurisation de systèmes · Windows internals · WDK / KMDF · pagination x64 · reverse engineering · Unreal Engine · DirectX 11 · ImGui
