@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-En parallèle, je creuse le **bas niveau** : mémoire, pagination x64, drivers kernel Windows, structures internes des moteurs de jeu. Comprendre un système de l'intérieur, c'est savoir où il peut céder et comment le protéger.
+En parallèle de la cybersécurité, je creuse le **bas niveau** : mémoire, pagination x64, drivers kernel Windows, structures internes des moteurs de jeu. Comprendre un système de l'intérieur, c'est savoir où il peut céder et comment le protéger.
 
 J'apprends en construisant. Chaque projet part d'une question précise, comme « comment le CPU traduit-il une adresse virtuelle ? » ou « comment détecter un débordement de tas ? », et va jusqu'au code qui y répond.
 
